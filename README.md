@@ -7,7 +7,7 @@
 ### Usage
 `const mortgage = require('tiny-mortgage')`
 or
-`import mortgage from 'tiny-mortgage`
+`import mortgage from 'tiny-mortgage'`
 
 Get The Monthly Total
 - `mortgage.getMonthly()`
