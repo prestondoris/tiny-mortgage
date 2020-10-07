@@ -1,0 +1,22 @@
+{
+  "name": "tiny-mortgage",
+  "version": "1.0.0",
+  "description": "A Small NPM Package for Calculating a Fix Rate Mortgage",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prestondoris/tiny-mortgage.git"
+  },
+  "keywords": [
+    "Mortgage"
+  ],
+  "author": "Preston Doris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prestondoris/tiny-mortgage/issues"
+  },
+  "homepage": "https://github.com/prestondoris/tiny-mortgage#readme"
+}
