@@ -10,11 +10,11 @@ or
 `import mortgage from 'tiny-mortgage`
 
 Get The Monthly Total
-`mortgage.getMonthly()`
+- `mortgage.getMonthly()`
 
 Get The Total Amount to be Paid over the life of the loan including interest
-`mortgage.getTotal()`
+- `mortgage.getTotal()`
 
 Get the Principle/Interest Breakdown for a given month in the loan term
-`mortgage.getSpecificMonth()`
+- `mortgage.getSpecificMonth()`
 
