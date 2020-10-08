@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/prestondoris/tiny-mortgage/issues"
   },
-  "homepage": "https://github.com/prestondoris/tiny-mortgage#readme"
+  "homepage": "https://github.com/prestondoris/tiny-mortgage#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
