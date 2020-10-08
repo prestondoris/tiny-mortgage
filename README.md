@@ -16,6 +16,7 @@ The Mortgage class takes 4 parameters all of which are required.
 3. Interest Rate (represented as a whole number between 0-20)
 4. Number of Years of the Loan
 
+### Methods
 Get The Monthly Total
 - `m.getMonthly()`
 
