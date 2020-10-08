@@ -56,7 +56,7 @@ class Mortgage {
   }
   
   getSpecificMonth(month) {
-    if(month > this.totalMonths) return undefined
+    if(month > this.totalMonths || month < 1) return undefined
     let curMonth = this.lifeOfLoan[month]
     let interest = curMonth.interest
     let principle = curMonth.principle

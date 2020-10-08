@@ -23,5 +23,7 @@ Get The Total Amount to be Paid over the life of the loan including interest
 - `m.getTotal()`
 
 Get the Principle/Interest Breakdown for a given month in the loan term
-- `m.getSpecificMonth()`
+- `m.getSpecificMonth(124)`
+- For a 30 year Fixed Rate Loan: 1 - 360
+- For a 15 year Fixed Rate Loan: 1 - 180
 
