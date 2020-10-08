@@ -17,11 +17,11 @@ The Mortgage class takes 4 parameters all of which are required.
 4. Number of Years of the Loan
 
 Get The Monthly Total
-- `mortgage.getMonthly()`
+- `m.getMonthly()`
 
 Get The Total Amount to be Paid over the life of the loan including interest
-- `mortgage.getTotal()`
+- `m.getTotal()`
 
 Get the Principle/Interest Breakdown for a given month in the loan term
-- `mortgage.getSpecificMonth()`
+- `m.getSpecificMonth()`
 
