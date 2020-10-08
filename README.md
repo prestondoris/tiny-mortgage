@@ -13,7 +13,7 @@
 The Mortgage class takes 4 parameters all of which are required.
 1. Total Cost of the house
 2. Down Payment Percentage (represented as a whole number between 1 - 100)
-3. Interest Rate (represented as a whole number between 1-100)
+3. Interest Rate (represented as a whole number between 0-20)
 4. Number of Years of the Loan
 
 Get The Monthly Total

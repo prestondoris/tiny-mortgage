@@ -17,6 +17,38 @@ totalExp = 2062434
 assertEqual(monthly, monthExp)
 assertEqual(total, totalExp)
 
+try {
+  m = new Mortgage(1500000, 101, 4, 30)
+} catch (error) {
+  console.log(error)
+}
+try {
+  m = new Mortgage(1500000, 0, 4, 30)
+} catch (error) {
+  console.log(error)
+}
+try {
+  m = new Mortgage(1500000, 20, 21, 30)
+} catch (error) {
+  console.log(error)
+}
+try {
+  m = new Mortgage(1500000, 20, -1, 30)
+} catch (error) {
+  console.log(error)
+}
+try {
+  m = new Mortgage(1500000, 20, 4)
+} catch (error) {
+  console.log(error)
+}
+
+
+
+
+
+
+
 function assertEqual(a, b) {
   if (a === b) {
     console.log(`Test PASS: ${a} === ${b}`);

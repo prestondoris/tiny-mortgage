@@ -3,13 +3,17 @@ Number.prototype.decimalPlaces = function (digits) {
 }
 
 class Mortgage {
-  constructor(cost, downpayment, anunalInterest, loanTerm) {
+  constructor(cost=null, downpayment=null, anunalInterest=null, loanTerm=null) {
+    if (cost === null || downpayment === null || anunalInterest === null || loanTerm === null) {
+      throw Error('Mortgage Parameters were not properly provided. Please provide a Cost, Downpayment, Annual Interest Rate, and Loan Term in that order when instantiating a new Mortgage Class')
+    }
+    
     if(downpayment < 1 || downpayment >=100 ) {
-      throw Error('Downpayment should be a value between 0-100')
+      throw Error('Downpayment should be a value between 1-100')
     }
 
-    if (downpayment < 1 || downpayment >= 100) {
-      throw Error('Interest should be a value between 0-100')
+    if (anunalInterest < 0 || anunalInterest > 20) {
+      throw Error('Interest should be a value between 0-20')
     }
 
     this.cost = cost
