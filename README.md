@@ -5,9 +5,16 @@
 `npm install --save tiny-mortgage`
 
 ### Usage
-`const mortgage = require('tiny-mortgage')`
-or
-`import mortgage from 'tiny-mortgage'`
+`const Mortgage = require('tiny-mortgage')`
+
+`const m = new Mortgage(700000, 20, 4, 30)`
+
+### Parameters
+The Mortgage class takes 4 parameters all of which are required.
+1. Total Cost of the house
+2. Down Payment Percentage (represented as a whole number between 1 - 100)
+3. Interest Rate (represented as a whole number between 1-100)
+4. Number of Years of the Loan
 
 Get The Monthly Total
 - `mortgage.getMonthly()`

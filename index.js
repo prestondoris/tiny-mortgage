@@ -63,4 +63,4 @@ class Mortgage {
 
 }
 
-export default Mortgage
+module.exports = Mortgage

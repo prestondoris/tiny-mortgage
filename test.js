@@ -1,4 +1,4 @@
-import Mortgage from './index.mjs'
+const Mortgage = require('./index.js')
 
 let m = new Mortgage(500000, 20, 4, 30)
 let monthly = m.getMonthly()
