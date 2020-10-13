@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/prestondoris/tiny-mortgage#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
